@@ -21,9 +21,9 @@ This program implements a simple compiler front-end using Flex (Lex) and Bison (
 
 The program is based on the following context-free grammar:
 
-E → E+T|E-T|-E|T
-T → T*F|T/F|F
-F → int|(E)
+E → E+T|E-T|-E|T  
+T → T*F|T/F|F  
+F → int|(E)  
 
 ---
 
@@ -38,16 +38,16 @@ F → int|(E)
 - Bison for Windows: http://gnuwin32.sourceforge.net/packages/bison.htm
 - Bison for Ubuntu/Linux: https://installati.one/ubuntu/21.04/bison/
 
-**How to Run**
-Compile and run on Linux / macOS / MSYS2:
+**How to Run**  
+Compile and run on Linux / macOS / MSYS2:  
 flex lex.l  
 bison -d yacc.y  
 gcc lex.yy.c yacc.tab.c -o hw5_compiler  
-./hw5_compiler < sample_test_cases.txt > test_case_output.txt  
+./hw5_compiler < sample_test_cases.txt > test_case_output.txt    
 
-**Run manually**
-./hw5_compiler
-Then type one expression per line and press Enter.
+**Run manually**  
+./hw5_compiler  
+Then type one expression per line and press Enter.  
 
 ---
 
