@@ -5,6 +5,11 @@ This program implements a simple compiler front-end using Flex (Lex) and Bison (
 - Evaluate valid arithmetic expressions using +, -, *, /, unary minus, integers, and parentheses.
 - Invalid expressions and division by zero print:  
      Entered expression is invalid!
+
+Notes:  
+- Expressions must strictly follow the grammar rules  
+- Some expressions like 4*-2 may be considered invalid depending on grammar interpretation  
+- Use parentheses when necessary: 4*(-2)
   
 ---
 
@@ -40,10 +45,10 @@ F → int|(E)
 
 **How to Run**  
 Compile and run on Linux / macOS / MSYS2:  
-flex lex.l  
-bison -d yacc.y  
-gcc lex.yy.c yacc.tab.c -o hw5_compiler  
-./hw5_compiler < sample_test_cases.txt > test_case_output.txt    
+- flex lex.l  
+- bison -d yacc.y  
+- gcc lex.yy.c yacc.tab.c -o hw5_compiler  
+- ./hw5_compiler < sample_test_cases.txt > test_case_output.txt    
 
 **Run manually**  
 ./hw5_compiler  
@@ -64,3 +69,8 @@ Then type one expression per line and press Enter.
 **2. Evaluate valid expressions**
 
 **3. Report errors for invalid expressions**
+
+---
+
+## Author
+Diana Maldonado
