@@ -1,0 +1,16 @@
+Result = 1
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
+Result = 80
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
+Result = -7
+Result = 3000
+Result = 7
+Result = -2
+Entered expression is invalid!
