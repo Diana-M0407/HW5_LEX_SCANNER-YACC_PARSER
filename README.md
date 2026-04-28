@@ -51,8 +51,8 @@ Compile and run on Linux / macOS / MSYS2:
 - ./hw5_compiler < sample_test_cases.txt > test_case_output.txt    
 
 **Run manually**  
-./hw5_compiler  
-Then type one expression per line and press Enter.  
+- ./hw5_compiler  
+- Then type one expression per line and press Enter.  
 
 ---
 
