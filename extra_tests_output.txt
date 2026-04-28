@@ -1,0 +1,35 @@
+Result = 3
+Result = 7
+Result = 9
+Result = -5
+Result = 5
+Result = -5
+Result = -5
+Result = -6
+Entered expression is invalid!
+Result = -8
+Result = 5
+Result = 2
+Result = 0
+Result = 0
+Result = 1
+Entered expression is invalid!
+Entered expression is invalid!
+Result = 1
+Result = 1
+Result = 1
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
+Entered expression is invalid!
