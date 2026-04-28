@@ -38,9 +38,9 @@ F → int | (E)
 - Bison Installation:
 -- Bison for Windows: http://gnuwin32.sourceforge.net/packages/bison.htm
 -- Bison for Ubuntu/Linux: https://installati.one/ubuntu/21.04/bison/
--- Installation videos for Lex-Yacc (or Flex-Bison):
-- https://www.youtube.com/watch?v=VUOapK1zKAA
-- https://www.youtube.com/watch?v=uPFMLstILns
+- Installation videos for Lex-Yacc (or Flex-Bison):
+-- https://www.youtube.com/watch?v=VUOapK1zKAA
+-- https://www.youtube.com/watch?v=uPFMLstILns
 
 **How to Run**
 Compile and run on Linux / macOS / MSYS2:
